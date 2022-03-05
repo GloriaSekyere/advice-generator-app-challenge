@@ -10,5 +10,76 @@ body {
   font-family: "Manrope", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1f2632;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+  padding: 50px 25px 70px;
+  border-radius: 15px;
+  background-color: #323a49;
+  text-align: center;
+  position: relative;
+}
+
+.main h1 {
+  color: #52ffa8;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.main p {
+  color: #cee3e9;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.main .mobile-divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .mobile-divider img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main .dice {
+  position: absolute;
+  left: 50%;
+  bottom: -35px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #52ffa8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .dice img {
+  max-width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=index.css.map */

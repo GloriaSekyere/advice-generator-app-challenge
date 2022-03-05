@@ -16,4 +16,60 @@ body {
   font-family: "Manrope", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: $dark-blue;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+  padding: 50px 25px 70px;
+  border-radius: 15px;
+  background-color: $dark-grayish-blue;
+  text-align: center;
+  position: relative;
+
+  h1 {
+    color: $neon-green;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  p {
+    color: $light-cyan;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+
+  .mobile-divider {
+    display: flex;
+    justify-content: center;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .dice {
+    position: absolute;
+    left: 50%;
+    bottom: -35px;
+    transform: translate(-50%);
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: $neon-green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
 }
