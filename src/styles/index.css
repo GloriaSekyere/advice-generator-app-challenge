@@ -17,12 +17,15 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100vh;
 }
 
 .main {
-  width: 80%;
-  margin: auto;
+  width: 330px;
+  height: 350px;
   padding: 50px 25px 70px;
   border-radius: 15px;
   background-color: #323a49;
@@ -40,7 +43,6 @@ body {
   color: #cee3e9;
   font-size: 20px;
   font-weight: 800;
-  margin-bottom: 30px;
 }
 
 .main .mobile-divider {
@@ -50,6 +52,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 75px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .main .mobile-divider img {

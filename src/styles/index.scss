@@ -19,12 +19,13 @@ body {
   background-color: $dark-blue;
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100vh;
 }
 
 .main {
-  width: 80%;
-  margin: auto;
+  width: 330px;
+  height: 350px;
   padding: 50px 25px 70px;
   border-radius: 15px;
   background-color: $dark-grayish-blue;
@@ -41,12 +42,18 @@ body {
     color: $light-cyan;
     font-size: 20px;
     font-weight: 800;
-    margin-bottom: 30px;
+    
   }
 
   .mobile-divider {
     display: flex;
     justify-content: center;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 75px;
+    transform: translate(-50%);
+
     img {
       max-width: 100%;
       height: auto;
