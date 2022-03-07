@@ -7,8 +7,9 @@ const api = "https://api.adviceslip.com/advice";
 const App = () => {
 
   const [advice, setAdvice] = useState(null)
+  const [adviceCount, setAdviceCount] = useState(1)
 
-  const fetchAdvice = useCallback(async () => {
+  const fetchAdvice = async () => {
     try {
       let response = await fetch(api)
       let data =  await response.json()
@@ -16,7 +17,7 @@ const App = () => {
     } catch (err) {
         throw new Error(err.message)
     }
-  })
+  }
 
   useEffect(() => {
     fetchAdvice()
@@ -24,12 +25,13 @@ const App = () => {
 
   const handleClick = () => {
     fetchAdvice()
+    setAdviceCount(prevCount => prevCount + 1)
   }
 
   return (
     <main className="main">
 
-      <h1>ADVICE #117</h1>
+      <h1>ADVICE #{adviceCount}</h1>
 
       <p>"{advice && advice}"
       </p>
