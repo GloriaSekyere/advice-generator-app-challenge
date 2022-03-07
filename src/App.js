@@ -1,6 +1,6 @@
 import mobileDivider from './images/pattern-divider-mobile.svg';
 import dice from './images/icon-dice.svg';
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState } from 'react';
 
 const api = "https://api.adviceslip.com/advice";
 

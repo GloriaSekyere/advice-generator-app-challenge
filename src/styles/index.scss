@@ -56,11 +56,11 @@ body {
   .dice {
     position: absolute;
     left: 50%;
-    bottom: -35px;
+    bottom: -30px;
     transform: translate(-50%);
 
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background-color: $neon-green;
     display: flex;
