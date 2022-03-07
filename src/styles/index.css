@@ -46,17 +46,11 @@ body {
 }
 
 .main .mobile-divider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.main .mobile-divider img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 25px;
+  background-image: url("../images/pattern-divider-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
 }
 
 .main .dice {
@@ -83,5 +77,12 @@ body {
 .main .dice img {
   max-width: 100%;
   height: auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .main {
+    width: 500px;
+    padding: 50px 25px 70px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
