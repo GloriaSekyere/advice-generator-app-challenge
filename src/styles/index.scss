@@ -89,5 +89,11 @@ body {
         position: left bottom;
       }
     }
+
+    .dice {
+      &:hover {
+        box-shadow: 0 0 15px $neon-green;
+      }
+    }
   }
 }

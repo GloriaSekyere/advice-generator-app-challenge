@@ -90,5 +90,9 @@ body {
     background-repeat: no-repeat;
     background-position: left bottom;
   }
+  .main .dice:hover {
+    -webkit-box-shadow: 0 0 15px #52ffa8;
+            box-shadow: 0 0 15px #52ffa8;
+  }
 }
 /*# sourceMappingURL=index.css.map */
