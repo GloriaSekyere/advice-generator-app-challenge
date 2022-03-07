@@ -36,7 +36,7 @@ const App = () => {
       <p>"{advice && advice}"
       </p>
 
-      <div className="mobile-divider"></div>
+      <div className="divider"></div>
 
       <div className="dice" onClick={handleClick}>
         <img src={dice} alt="dice" />
